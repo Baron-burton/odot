@@ -4,7 +4,7 @@ describe "Logging In"  do
 	it "logs the user in and goes to the todo lists" do
 		User.create(first_name: "Brandon", last_name: "Burton", email: "burton@gmail.com", password: "treehouse1", password_confirmation: "treehouse1")
 		visit new_user_session_path
-		fill_in "Email", with: "burton@gmail.com"
+		fill_in "Email Address", with: "burton@gmail.com"
 		fill_in "Password", with: "treehouse1"
 		click_button "Log In"
 
