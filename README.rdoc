@@ -1,28 +1,13 @@
 == README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This Todo List was created alongside a tutorial to help me learn Ruby and Ruby on Rails.
 
-Things you may want to cover:
+This is the first app I've created in Rails so there will definitely be areas where I can improve.
 
-* Ruby version
+The app includes user authentication giving anyone the ability to register an account and create a todo list that won't get lost as it's assigned to the user's specific user id. 
 
-* System dependencies
+Hopefully, as I learn more about Ruby and RoR, I'll be able to add to this project. 
 
-* Configuration
+In the mean time, feel free to use it as a base for creating your own todo list! Just fork the code to your account and use your favourite text editor to adjust it as you see fit. 
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+To run the code just type "rails s" into your command line once you're on the path of where you saved the file and type "localhost:3000" in your browser. 
