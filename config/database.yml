@@ -4,6 +4,8 @@ development:
   database: db/development
   pool: 5
   timeout: 5000
+  username: postgres 
+  password: Obzedat26
 
 # Warning: The database defined as "test" will be erased and
 # re-generated from your development database when you run "rake".
@@ -13,6 +15,8 @@ test:
   database: db/test
   pool: 5
   timeout: 5000
+  username: postgres 
+  password: Obzedat26
 
 production:
   adapter: postgresql
