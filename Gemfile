@@ -1,6 +1,8 @@
 source 'https://rubygems.org'
 
-gem 'rails', '4.0.1'
+gem 'rspec-activemodel-mocks', '~> 1.0', '>= 1.0.2'
+gem 'minitest', '~> 5.8.3'
+gem 'rails', '~> 4.2', '>= 4.2.5'
 gem 'bcrypt-ruby', '~> 3.1.5'
 gem 'pg'
 gem 'sass-rails', '~> 4.0.0'
@@ -17,12 +19,13 @@ group :doc do
 end
 
 group :development, :test do
-	gem 'rspec-rails', '~>2.0'
+	gem 'rspec-rails', '~>3.0'
 	gem 'factory_girl_rails', '~> 4.0'
 end
 
 group :test do
-	gem 'capybara', '~>2.1.0'
-	gem 'capybara-email', '~>2.2.0'
+	gem 'rspec-rails', '~>3.0'
+	gem 'capybara', '~>2.5.0'
+	gem 'capybara-email', '~>2.4.0'
 	gem 'shoulda-matchers', '~> 2.4.0'
 end

@@ -54,7 +54,7 @@ describe User do
     it "downcases an email before saving" do
       user = User.new(valid_attributes)
       user.email = "BRANDON@GMAIL.COM"
-      expect(user.save).to be_true
+      expect(user.save).to be true
       expect(user.email).to eq("brandon@gmail.com")
     end
   end

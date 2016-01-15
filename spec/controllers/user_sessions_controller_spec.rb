@@ -31,7 +31,7 @@ describe UserSessionsController do
       end
 
       it "authenticates the user" do 
-        User.stub(:find_by).and_return(user)
+        allow(User).to receive(:find_by).and_return(user)
         expect(user).to receive(:authenticate)
         post :create, email: "burton@gmail.com", password: "treehouse1"
       end
